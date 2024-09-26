@@ -1,3 +1,4 @@
+
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
@@ -35,6 +36,7 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     marginTop: 100,
     elevation: 5,
+    marginBottom:"30%"
   },
   iconContainer: {
     backgroundColor: "#fff",
@@ -83,11 +85,17 @@ export const styles = StyleSheet.create({
     color: "#A3A3A3",
   },
   bottomNav: {
-    flexDirection: "row",
-    justifyContent: "space-around",
-    padding: 15,
-    backgroundColor: "#fff",
-    borderTopColor: "#ddd",
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    height: 60,
+    backgroundColor: '#ffffff',
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
     borderTopWidth: 1,
+    borderTopColor: '#E0E0E0',
+    paddingHorizontal: 20,
   },
 });

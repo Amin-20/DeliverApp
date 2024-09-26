@@ -7,20 +7,13 @@ import { styles } from './DeliverScreenStyle';
 import { useNavigation } from '@react-navigation/native'; 
 
 export default function DeliveryScreen() {
-  
   const navigation = useNavigation();
-
   return (
-
-    
     <View style={styles.container}>
-      {/* Gradient background */}
       <LinearGradient
         colors={['#a32cc4', '#6023c0']}
-        style={styles.background}
-      />
+        style={styles.background}/>
 
-      {/* Top Logo */}
       <View style={styles.logoContainer}>
         <Image
           source={{ uri: 'https://link-to-your-logo-image.png' }}
@@ -28,10 +21,8 @@ export default function DeliveryScreen() {
         />
       </View>
 
-      {/* Content Box */}
       <View style={styles.contentBox}>
         <View style={styles.iconContainer}>
-          {/* Add your icon here */}
           <Image source={{ uri: 'https://link-to-your-icon.png' }} style={styles.icon} />
         </View>
         <Text style={styles.title}>Non-Contact Deliveries</Text>
@@ -39,7 +30,6 @@ export default function DeliveryScreen() {
           When placing an order, select the option "Contactless delivery" and the courier will leave your order at the door.
         </Text>
 
-        {/* Buttons */}
         <TouchableOpacity onPress={() => navigation.navigate('Categories')} style={styles.orderButton}>
           <Text style={styles.orderButtonText}>ORDER NOW</Text>
         </TouchableOpacity>
