@@ -16,14 +16,14 @@ export default function DeliveryScreen() {
 
       <View style={styles.logoContainer}>
         <Image
-          source={{ uri: 'https://link-to-your-logo-image.png' }}
+          source={require('@/assets/images/image (1).png')}
           style={styles.logo}
         />
       </View>
 
       <View style={styles.contentBox}>
         <View style={styles.iconContainer}>
-          <Image source={{ uri: 'https://link-to-your-icon.png' }} style={styles.icon} />
+          <Image source={require('@/assets/images/logo.png')} style={styles.icon} />
         </View>
         <Text style={styles.title}>Non-Contact Deliveries</Text>
         <Text style={styles.description}>
@@ -34,9 +34,6 @@ export default function DeliveryScreen() {
           <Text style={styles.orderButtonText}>ORDER NOW</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.dismissButton}>
-          <Text style={styles.dismissButtonText}>DISMISS</Text>
-        </TouchableOpacity>
       </View>
 
       <View style={styles.bottomNav}>

@@ -21,10 +21,11 @@ export const styles = StyleSheet.create({
     position: "absolute",
     top: 50,
     left: 20,
+
   },
   logo: {
-    width: 50,
-    height: 50,
+    width: 60,
+    height: 60,
     borderRadius: 25,
     backgroundColor: "#c4ff65",
   },
@@ -34,9 +35,11 @@ export const styles = StyleSheet.create({
     padding: 20,
     borderRadius: 15,
     alignItems: "center",
-    marginTop: 100,
+    marginTop: "50%",
     elevation: 5,
-    marginBottom:"30%"
+    marginBottom:"10%",
+    paddingTop : "20%",
+    
   },
   iconContainer: {
     backgroundColor: "#fff",
@@ -45,10 +48,10 @@ export const styles = StyleSheet.create({
     borderRadius: 40,
     justifyContent: "center",
     alignItems: "center",
-    marginBottom: 20,
+    marginBottom: 70,
   },
   icon: {
-    width: 40,
+    width: 80,
     height: 40,
   },
   title: {

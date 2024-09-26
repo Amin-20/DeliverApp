@@ -5,13 +5,15 @@ import { useNavigation } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 
 const data = [
-  { id: '1', name: 'Boston Lettuce', price: '1.10 € / piece', image: 'https://heirloom-vegetable-seeds.com/cdn/shop/products/bibb2.jpg?v=1570843396' },
-  { id: '2', name: 'Beer', price: '1.85 € / kg', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzt800zmcjnGIT5P3hUYFDjFWCSZ3qN_jL7g&s' },
-  { id: '3', name: 'Boston Lettuce', price: '1.10 € / piece', image: 'https://www.melskitchencafe.com/wp-content/uploads/rustic-bread-updated3.jpg' },
-  { id: '4', name: 'Jack Daniels', price: '1.85 € / kg', image: 'https://www.oaks.delivery/wp-content/uploads/Jack-Daniels-Honey-Whiskey-1-1600x900-1-1200x628-cropped.webp' },
-  { id: '5', name: 'Jameson', price: '1.45 € / kg', image: 'https://thewhiskeyreserve.com/cdn/shop/products/Untitleddesign_8.png?v=1676840435' },
-  { id: '6', name: 'Coffee', price: '1.85 € / kg', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb5bqC7IA8JdjL19Ko8baj61wNE8Qlab3GWw&s' },
-  { id: '7', name: 'Milk', price: '1.45 € / kg', image: 'https://www.parents.com/thmb/qKThoOlGAzJwGZ-moTTGQVFRvhg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Grass-Fed-vs-Organic-Milk-9fff118133c14e578c2379ed86888817.jpg' },
+  { id: '1', name: 'Apple', price: '0.70 € / piece', image: 'https://th.bing.com/th/id/R.fbeda6fbe91f4ebec68679869c39f142?rik=VACW%2bdmA%2bJ49zQ&pid=ImgRaw&r=0' },
+  { id: '2', name: 'Banana', price: '1.20 € / kg', image: 'https://www.thedailymeal.com/img/gallery/13-delicious-things-you-can-make-with-bananas/l-intro-1673458653.jpg' },
+  { id: '3', name: 'Cheese', price: '2.90 € / piece', image: 'https://th.bing.com/th/id/OIP.1IoxD8nHXV2ID6z2zI2KiQHaE7?rs=1&pid=ImgDetMain' },
+  { id: '4', name: 'Milk', price: '1.85 € / kg', image: 'https://th.bing.com/th/id/OIP.9LZU9dm7WCz7Du4EoSvyiwHaHa?rs=1&pid=ImgDetMain' },
+  { id: '5', name: 'White Cabbage', price: '1.45 € / kg', image: 'https://gwpriceltd.co.uk/wp-content/uploads/2020/04/GWPrice-White-Cabbage-min.jpg' },
+  { id: '6', name: 'Chili', price: '1.85 € / kg', image: 'https://th.bing.com/th/id/OIP.w5QckZK4ZMrRL82AcuE70QHaFj?rs=1&pid=ImgDetMain' },
+  { id: '7', name: 'Bread', price: '1.45 € / kg', image: 'https://th.bing.com/th/id/R.a0e639292d89b1a3be2541c8a6103b07?rik=wXfm9c2Et5Kmfg&riu=http%3a%2f%2fwww.cuisineandhealth.com%2fwp-content%2fuploads%2f2015%2f07%2fbread.jpg&ehk=Bz06VR32pXCftwF1VkIF3AeNbtf3sxUJW8Jwd2hnLmM%3d&risl=&pid=ImgRaw&r=0' },
+  { id: '8', name: 'Lavash', price: '1.45 € / kg', image: 'https://th.bing.com/th/id/OIP.5NMnmoKZW_gvHU-nqEPSMQHaFj?rs=1&pid=ImgDetMain' },
+
 ];
 
 export default function ProductScreen({ route }) {

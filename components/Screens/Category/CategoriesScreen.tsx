@@ -5,14 +5,10 @@ import { useNavigation } from '@react-navigation/native';
 import {styles} from "./CategoriesScreenStyle"
 
 const allCategories = [
-  { id: '1', name: 'Vegetables', count: 43, image: 'https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-2foodgroups_vegetables_detailfeature.jpg?sfvrsn=226f1bc7_6' },
-  { id: '2', name: 'Fruits', count: 32, image: 'https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-3foodgroups_fruits_detailfeature.jpg?sfvrsn=64942d53_4' },
-  { id: '3', name: 'Bread', count: 22, image: 'https://www.melskitchencafe.com/wp-content/uploads/rustic-bread-updated3.jpg' },
-  { id: '4', name: 'Sweets', count: 56, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOLQuad8hynOLvQf6BGBasa1lTWbkcsnwsOQ&s' },
-  { id: '5', name: 'Pasta', count: 10, image: 'https://www.realfoodwithsarah.com/wp-content/uploads/2024/05/authentic-italian-pasta-sauce-3.jpg' },
-  { id: '6', name: 'Tea', count: 5, image: 'https://cdn.shopify.com/s/files/1/0533/6743/9558/t/5/assets/pf-3bc933da--indexHowtotastetea.jpg?v=1627466622' },
-  { id: '7', name: 'Coffee', count: 5, image: 'https://www.netmeds.com/images/cms/wysiwyg/blog/Post/2018/10/coffee_its_benefits_898_1_.jpg' },
-  { id: '8', name: 'Milk', count: 5, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBLw8pHDmM2BH0OlzTNjOQL15dqcQO8n6Ypg&s' }
+  { id: '1', name: 'Milk', count:10, image: 'https://th.bing.com/th/id/R.e907729ea8798f0aa4a8b3ff961f574d?rik=vfnzcQwIkspdYw&pid=ImgRaw&r=0' },
+  { id: '2', name: 'Flour', count: 25, image: 'https://th.bing.com/th/id/R.23a95e38e3bfc885007e021b3048e237?rik=%2bkaeOZ4%2bETbdVQ&riu=http%3a%2f%2fwatuseefoods.com%2fwp-content%2fuploads%2f2020%2f12%2ftipos-de-harinas.jpg&ehk=QJbKWlUm6nQAR1UeqrsaoIRo3VFI4DWhgY0VjsdymvQ%3d&risl=&pid=ImgRaw&r=0' },
+  { id: '3', name: 'Fruits', count: 8, image: 'https://th.bing.com/th/id/OIP.5mSxbyZkchbPhyfzdbAq9gHaE7?rs=1&pid=ImgDetMain' },
+  { id: '4', name: 'Vegetables', count: 31, image: 'https://static.independent.co.uk/2023/08/07/10/01141234-51ec8df3-cb87-409f-84f2-7f24fc57434c.jpg' },
 ];
 
 export default function CategoriesScreen() {
