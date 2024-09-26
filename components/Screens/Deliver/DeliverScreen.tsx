@@ -11,6 +11,8 @@ export default function DeliveryScreen() {
   const navigation = useNavigation();
 
   return (
+
+    
     <View style={styles.container}>
       {/* Gradient background */}
       <LinearGradient

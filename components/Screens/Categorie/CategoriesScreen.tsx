@@ -3,6 +3,7 @@ import { View, Text, TextInput, StyleSheet, FlatList, Image, TouchableOpacity } 
 import { Ionicons } from '@expo/vector-icons'; // Icon package
 import { Link } from 'expo-router';
 import { styles } from './CategoriesScreenStyle';
+import { useNavigation } from '@react-navigation/native'; 
 
 const allCategories = [
   { id: '1', name: 'Vegetables', count: 43, image: 'https://link-to-vegetables-image.jpg' },
@@ -35,12 +36,14 @@ export default function CategoriesScreen() {
       <Text style={styles.cardCount}>({item.count})</Text>
     </View>
   );
+  const navigation = useNavigation();
+
 
   return (
     <View style={styles.container}>
       {/* Header */}
       <View style={styles.header}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Delivery')}>
           <Ionicons name="arrow-back" size={24} color="purple" />
         </TouchableOpacity>
         <Text style={styles.title}>Categories</Text>
