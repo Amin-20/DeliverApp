@@ -1,10 +1,10 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import DeliveryScreen from '@/components/Screens/Deliver/DeliverScreen'
+import DeliveryScreen from '@/components/Screens/Delivery/DeliverScreen'
 import ProductScreen from "@/components/Screens/Product/Products"
 import PaymentScreen from "@/components/Screens/Payment/Payment"
-import CategoriesScreen from '@/components/Screens/Categorie/CategoriesScreen'; 
+import CategoriesScreen from '@/components/Screens/Category/CategoriesScreen'; 
 const Stack = createStackNavigator();
 
 export default function _layout() {
