@@ -16,6 +16,13 @@ export const styles = StyleSheet.create({
     section: {
       marginBottom: 63,
     },
+    section2: {
+      flexDirection : 'row',
+      justifyContent: 'space-between',
+      alignItems : "center",
+      marginBottom:"27%"
+
+    },
     header: {
       fontSize: 24,
       fontWeight: 'bold',
@@ -28,7 +35,7 @@ export const styles = StyleSheet.create({
       fontSize: 18,
       fontWeight: '600',
       marginBottom: 10,
-      flexDirection:"row"
+      flexDirection:"row",
     },
     sectionContent: {
       flexDirection: 'row',

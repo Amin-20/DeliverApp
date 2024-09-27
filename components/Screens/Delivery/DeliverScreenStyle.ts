@@ -30,15 +30,15 @@ export const styles = StyleSheet.create({
     backgroundColor: "#c4ff65",
   },
   contentBox: {
-    width: "90%",
+    width: "101%",
     backgroundColor: "#F5F5F5",
     padding: 20,
-    borderRadius: 15,
+    borderRadius: 50,
     alignItems: "center",
-    marginTop: "50%",
+    marginTop: "100%",
     elevation: 5,
-    marginBottom:"10%",
     paddingTop : "20%",
+    paddingBottom:"80%",
     
   },
   iconContainer: {

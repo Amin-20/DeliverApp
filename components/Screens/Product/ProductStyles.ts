@@ -86,6 +86,7 @@ export const styles = StyleSheet.create({
       padding: 5,
       backgroundColor: '#34C759',
       borderRadius: 5,
+    
     },
     bottomNav: {
       flexDirection: 'row',
