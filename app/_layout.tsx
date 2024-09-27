@@ -5,6 +5,8 @@ import DeliveryScreen from '@/components/Screens/Delivery/DeliverScreen'
 import ProductScreen from "@/components/Screens/Product/Products"
 import PaymentScreen from "@/components/Screens/Payment/Payment"
 import CategoriesScreen from '@/components/Screens/Category/CategoriesScreen'; 
+import SingleProductScreen from '@/components/Screens/SingleProduct/SingleProductScreen'
+
 const Stack = createStackNavigator();
 
 export default function _layout() {
@@ -16,6 +18,8 @@ export default function _layout() {
         <Stack.Screen name="Categories" component={CategoriesScreen} />
         <Stack.Screen name="Products" component={ProductScreen} />
         <Stack.Screen name="Payment" component={PaymentScreen} />
+        <Stack.Screen name="SingleProduct" component={SingleProductScreen} />
+
       </Stack.Navigator>
     </NavigationContainer>
   );
